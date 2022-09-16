@@ -1,0 +1,28 @@
+a {
+    font-size: small;
+}
+
+aside {
+    background-color: beige;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+header {
+    background-color: khaki;
+}
+
+p {
+    font-weight: bold;
+}
+
+ul {
+    color: brown;
+}
+
+section {
+    background-color: blanchedalmond;
+}
