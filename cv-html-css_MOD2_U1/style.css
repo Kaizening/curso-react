@@ -1,0 +1,29 @@
+a {
+    font-size: small;
+}
+
+aside {
+    background-color: beige;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+header {
+    background: linear-gradient(to bottom, #53BAFA, white);
+    border-radius: 5px;
+}
+
+p {
+    font-weight: bold;
+}
+
+ul {
+    color: brown;
+}
+
+section {
+    background-color: blanchedalmond;
+}
