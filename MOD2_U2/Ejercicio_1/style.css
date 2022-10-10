@@ -1,0 +1,31 @@
+.flex-container {
+    border: black 1px solid;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    align-items: flex-end;
+  }
+
+#div_a{
+    background-color: red;
+    color: white;
+    height: 25%;
+    width: 25%;
+    text-align: center;
+}
+
+#div_b{
+    background-color: blue;
+    color: white;
+    height: 25%;
+    width: 25%;
+    text-align: center;
+}
+
+#div_c{
+    background-color: green;
+    color: white;
+    height: 25%;
+    width: 25%;
+    text-align: center;
+}
