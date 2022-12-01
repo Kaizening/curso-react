@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JavaScript</title>
+</head>
+
+<body>
+
+    <script>
+        valor = parseInt(prompt('Ingrese la distancia:'));
+
+        if (valor < 1000) {
+            document.write("Pie");
+        }
+        else if (valor > 1000 && valor < 10000) {
+            document.write("Bicicleta");
+        }
+        else if (valor > 10000 && valor < 30000) {
+            document.write("Colectivo");
+        }
+        else if (valor > 30000 && valor < 100000) {
+            document.write("Auto");
+        }
+        else if (valor > 100000) {
+            document.write("Avion");
+        }
+
+    </script>
+
+
+</body>
+
+</html>
