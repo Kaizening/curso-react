@@ -6,9 +6,10 @@ var logger = require("morgan");
 
 var indexRouter = require("./routes/index"); //index.js
 var usersRouter = require("./routes/users"); //users.js
-var nosotrosRouter = require("./routes/nosotros"); //nosotros.js
-var serviciosRouter = require("./routes/servicios"); //servicios.js
-var contactoRouter = require("./routes/contacto"); //contacto.js
+
+var nosotrosRouter = require("./routes/nosotros"); //routes/nosotros.js
+var serviciosRouter = require("./routes/servicios"); //routes/servicios.js
+var contactoRouter = require("./routes/contacto"); //routes/contacto.js
 
 var app = express();
 
@@ -27,18 +28,6 @@ app.use("/users", usersRouter);
 app.use("/nosotros", nosotrosRouter);
 app.use("/servicios", serviciosRouter);
 app.use("/contacto", contactoRouter);
-
-app.get("/nosotros", function (req, res) {
-  res.send("Hola soy la pagina de nosotros");
-});
-
-app.get("/galeria", function (req, res) {
-  res.send("Hola soy la pagina de galeria");
-});
-
-app.get("/contacto", function (req, res) {
-  res.send("Hola soy la pagina de contacto");
-});
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
